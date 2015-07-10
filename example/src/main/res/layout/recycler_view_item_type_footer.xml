@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/recycler_view_item_type_footer_view"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp"
+              android:gravity="center"
+        >
+
+    <ProgressBar
+            android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/pb_loading_b"
+            android:indeterminateDuration="2000"
+            />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="加载中..."
+            />
+
+
+</LinearLayout>
